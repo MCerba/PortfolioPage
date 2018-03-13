@@ -1,0 +1,88 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html {
+  background: url(../Images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+noscript {
+  text-align: center;
+}
+
+noscript h2 {
+  width: 50%;
+  height: 20%;
+  background-color: red;
+  color: white;
+  margin: 0 auto;
+}
+
+.page {
+  width: 90%;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 5px;
+  color: white;
+  margin: 0 auto;
+  margin-top: 70px;
+  text-align: center;
+}
+
+nav ul {
+  width: 90%;
+  background-color: rgb(122, 126, 103);
+  overflow: hidden;
+  padding: 5px;
+  color: white;
+  text-align: right;
+  margin: 25px auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li:hover {
+  background-color: #399077;
+}
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+#demoContainer {
+  background: url(../Images/table.jpg);
+  background-size: cover;
+  width: 95%;
+  height: 832px;
+  margin: 30px auto;
+  position: relative;
+}
